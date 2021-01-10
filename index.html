@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en-ca">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="description" content="A web page that will calculate the subtotal, tax, and final cost of a pizza with a specified size and number of toppings." />
+    <meta name="keywords" content="function, conditionals" />
+    <meta name="author" content="Rodas Nega" />
+    <meta name="viewport" content="width=device-width" />
+    <title>Pizza Delivery</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <h1 style="text-align:center;">Order the pizza of your choice!</h1>
+    <form>
+        <select id="size">
+          <option id="large">Large Pizza</option>
+          <option id="extra">Extra Large Pizza</option>
+        </select> 
+      <br>
+      <br>
+        <select id="garnish"> 
+          <option id="topping1">1 Topping</option>
+          <option id="topping2">2 Toppings</option>
+          <option id="topping3">3 Toppings</option>
+          <option id="topping4">4 Toppings</option>
+        </select>
+      <br>
+      <br>
+      <button id="deliver" onclick="pizzaOrder ()">Order</button>
+    </form>
+    <script src="script.js"></script>
+  </body>
+</html>
